@@ -8,6 +8,7 @@ import { IndexComponent } from '@drag-drop/index/index.component';
 import { DrawAreaComponent } from '@drag-drop/draw-area/draw-area.component';
 import { ToolListComponent } from '@drag-drop/tool-list/tool-list.component';
 import { ShareModule } from '@share/share.module';
+import { ComponentsModule } from '@app/components/components.module';
 
 
 
@@ -36,6 +37,7 @@ const router: Routes = [
     MatIconModule,
     MatButtonToggleModule,
     ShareModule,
+    ComponentsModule,
     RouterModule.forChild(router)
   ]
 })

@@ -1,5 +1,5 @@
 import { Directive, ElementRef, EventEmitter, HostListener, Input, Output } from '@angular/core';
-import { DropDataInterface } from '../interfaces/drag.interfaces';
+import { DropDataInterface } from '@interfaces/drag.interfaces';
 
 @Directive({
   selector: '[appDrop]'

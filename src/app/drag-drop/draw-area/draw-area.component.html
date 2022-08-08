@@ -4,9 +4,10 @@
             <ng-container *ngTemplateOutlet="dropArea; context: {component: component}"></ng-container>
         </ng-container>
         <div class="component" *ngIf="component.type !== 'empty'">
-            <p>{{component.type}}</p>
+            <app-feature fname="{{component.type}}"></app-feature>
         </div>
     </ng-container>
+    <div>{{ showJson(componentList) }}</div>
 </div>
 
 <ng-template #dropArea let-componentInfo="component">

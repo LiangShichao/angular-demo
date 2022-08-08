@@ -32,4 +32,8 @@ export class DrawAreaComponent implements OnInit, AfterViewInit {
 
     console.log(this.componentList);
   }
+
+  showJson(componentList: any) {
+    return JSON.stringify(componentList);
+  }
 }

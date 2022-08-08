@@ -2,8 +2,13 @@
     width: 200px;
     height: auto;
     background-color: aquamarine;
+    border: 1px solid;
     margin: 10px auto;
     overflow: hidden;
+
+    &:hover {
+        border: 1px coral solid;
+    }
 
     &-icon {
         width: 64px;
