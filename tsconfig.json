@@ -2,7 +2,16 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "baseUrl": "./",
+    "baseUrl": "src",
+    "paths": {
+      "@app/*": ["app/*"],
+      "@drag-drop/*": ["app/drag-drop/*"],
+      "@share/*": ["app/share/*"],
+      "@utils/*": ["app/utils/*"],
+      "@interfaces/*": ["app/interfaces/*"],
+      "@directives/*": ["app/directives/*"],
+      "@components/*": ["app/components/*"]
+    },
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,

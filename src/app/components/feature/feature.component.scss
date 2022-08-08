@@ -1,0 +1,28 @@
+.feature {
+    width: 200px;
+    height: auto;
+    background-color: aquamarine;
+    margin: 10px auto;
+    overflow: hidden;
+
+    &-icon {
+        width: 64px;
+        height: 64px;
+        background-color: white;
+        float: left;
+
+        img {
+            width: 32px;
+            height: 32px;
+            margin: 16px 16px;;
+        }
+    }
+
+    &-name {
+        width: 126px;
+        height: 64px;
+        background-color: coral;
+        float: left;
+        padding: 0 5px;
+    }
+}
